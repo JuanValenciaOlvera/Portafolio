@@ -1,0 +1,109 @@
+.skills{
+    padding-top:13rem ;
+
+    & h1{
+        font-size: 3rem;
+        margin-left: 50px ;
+    }
+}
+
+.skills__title {
+    color: $primary !important;
+}
+
+.skills__main {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills_tec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skills__tec__item {
+    color: $white;
+    margin: 20px;
+    text-align: center;
+    & img{
+        height: 80px;
+        width: 80px;
+    }
+    & h4{
+        padding: 5px;
+    }
+}
+
+.skills__img{
+    & img{
+        height: 250px; 
+        width: 46   0px;
+    }
+   
+}
+
+.skills__btn{
+    border:2px solid $primary;
+    border-radius: 10px;
+    color: $white;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    padding: 10px;
+
+    &:hover {
+        background: darken($color: $primary, $amount: 10);
+        color: $white;
+    }
+}
+.btn{
+    margin-top: 50px;
+}
+@media only screen and (min-width: 1200px) {
+    
+}
+
+@media only screen and (min-width: 992px ) and (max-width:1199px){
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 600px) {
+    .skills__tec__item {
+        margin: 10px;
+        
+        & img{
+            height: 50px;
+            width: 50px;
+        }
+
+    }
+
+    .skills__img{
+        & img{
+            height: 150px; 
+            width: 300px;
+        }
+    }
+    .btn{
+        margin-top: 50px;
+    }
+    .skills__btn{
+        font-size: 1rem;
+        margin-left: 30px;
+
+    }
+}

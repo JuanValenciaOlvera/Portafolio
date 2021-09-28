@@ -1,0 +1,125 @@
+.presentacion{
+    align-items: center;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15rem;
+}
+
+.presentacion__img {
+    max-width: 450px;
+    max-width: 450px;
+    position: static;
+   
+
+    & img {
+        clip-path: circle();
+        max-width: 450px;
+        max-height: 450px;
+    }
+}
+
+.presentacion__principal{
+    font-size: 45px;
+    text-align: center;
+}
+.presentacion__sec{
+    text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+    .presentacion{
+        padding-left: 2rem;
+    }
+    .presentacion__sec{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media only screen and (min-width: 992px ) and (max-width:1199px){
+    .presentacion{
+        padding-left: 2rem;
+    }
+    .presentacion__sec{
+        font-size: 1.5rem;
+    }
+    .presentacion__principal{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .presentacion{
+        padding-left: 2rem;
+    }
+    .presentacion__principal{
+        font-size: 28px;
+    }
+    .presentacion__sec{
+        font-size: 1rem;
+    }
+
+    .presentacion__img {
+        max-width: 350px;
+        max-width: 350px;
+
+        & img {
+            max-width: 350px;
+            max-height: 350px;
+         
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .presentacion{
+        padding-left: 2rem;
+    }
+    .presentacion__principal{
+        font-size: 25px;
+    }
+    .presentacion__sec{
+        font-size: 1rem;
+    }
+
+    .presentacion__img {
+        max-width: 250px;
+        max-width: 250px;
+ 
+        & img {
+            max-width: 250px;
+            max-height: 250px;
+         
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .presentacion{
+        display: inline-block;
+    }
+    .presentacion{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .presentacion__principal{
+        font-size: 20px;
+    }
+    .presentacion__sec{
+        font-size: .9rem;
+        padding: 20px;
+    }
+
+    .presentacion__img {
+        margin: auto;
+        max-width: 250px;
+        max-width: 250px;
+ 
+        & img {
+            max-width: 250px;
+            max-height: 250px;
+         
+        }
+    }
+}

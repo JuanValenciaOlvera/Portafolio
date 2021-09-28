@@ -1,0 +1,22 @@
+.footer{
+    align-items: center;
+    background-color: $black;
+    color: $white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_icons{
+    display: flex;
+    flex-direction: row;
+
+    & a{
+        margin: 10px;
+        height: 50px;
+        width: 50px;
+    }
+}
