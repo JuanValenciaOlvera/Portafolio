@@ -29,7 +29,7 @@ export const Skills = () => {
         </div>
 
         <div className="btn">
-            <a className="skills__btn" href="./assets/Docs/CV.pdf" download="CV">Descargar CV</a>
+            <a className="skills__btn" href="./assets/docs/CV.pdf" download="CV">Descargar CV</a>
         </div>
         </div>
     )
