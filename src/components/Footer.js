@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="footer" id="contacto">
             <div>
                 <h4 className="footer_name">Realizado con React js</h4>
-                <h5>Gracias por visitar mi sito</h5>
+                <h5 className="footer_name">Gracias por visitar mi sito</h5>
             </div>
             <div className="footer_icons">
                 <a href="https://github.com/JuanValenciaOlvera" target="_blank" className=""><img src="./assets/img/github.svg" alt="" /></a>

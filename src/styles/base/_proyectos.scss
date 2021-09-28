@@ -97,20 +97,18 @@
 
 @media only screen and (max-width: 600px) {
     .card {
-        height: 220px;
-        max-width: 170px;
+        height: 400px;
+        max-width: 300px;
         margin: 5px;
     }
     
     .card__img {
         border-radius: 10px 10px 0 0;
-        height: 120px;
-        max-width: 170px;
+        height: 250px;
+        max-width: 300px;
     }
     .card_body h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
-    .card_body p{
-        display: none;
-    }
+    
 }

@@ -18,7 +18,7 @@ export const Presentacion = () => {
       </div>
 
       <div className="presentacion__img">
-        <img src="./assets/img/retrato (2).jpg" alt="img_retrato" />
+        <img src="./assets/img/retrato.jpg" alt="img_retrato" />
       </div>
     </div>
   );
