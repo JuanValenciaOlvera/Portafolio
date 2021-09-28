@@ -7,7 +7,7 @@ export const Navbar = () => {
     const handleMenu = () => {
         const menu = document.getElementById('menu');
         if(menu.classList.contains('show')) {
-            menu.classList.remove('show')
+            menu.classList.remove('show');
         } else{
             menu.classList.add('show');
         }
@@ -16,7 +16,7 @@ export const Navbar = () => {
         <>
         <nav className="navbar" >
             <h1 className="navbar__title"><span>JUANVO</span></h1>
-            <div className="navbar__menu menu_res " id="menu">
+            <div className="navbar__menu menu_res " id="menu" onClick={handleMenu}>
                 <a href="#home" >Inicio</a>
                 <a href="#Skills" >Skills</a>
                 <a href="#proyects" >Proyectos</a>
