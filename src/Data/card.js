@@ -1,7 +1,7 @@
 export const cardsInfo = [
     {
         id: 'Proyecto 1',
-        img: './assets/img/calculadora.png',
+        img: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/746f50e0-4b96-44ca-aa2d-0ae723b31394/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210929T002425Z&X-Amz-Expires=86400&X-Amz-Signature=6d9b462387741578f6efc21f02f0a70ebaafce36dbcc9927df5726c480a3efe2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22',
         titulo: 'Calculadora básica',
         descrip: 'Calculadora realizada con html,css y javascript para operaciones basicas y un modo oscuro que permanece gracias al localstorage',
         link: 'https://juanvalenciaolvera.github.io/Calculadora/'
