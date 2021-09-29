@@ -24,6 +24,9 @@
 @media  (max-width: 600px) {
 
     .footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         padding: 10px;
     }
     .footer_name{

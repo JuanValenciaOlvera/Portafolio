@@ -139,14 +139,10 @@
 }
 
 @media  (max-width: 600px) {
-
-  .navbar {
-    max-width: 600px;
-  }
-
-  .navbar__title{
-    margin: auto;
-  
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .btn__menu {
     display: inline-flex;
