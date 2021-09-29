@@ -139,6 +139,11 @@
 }
 
 @media  screen and  (max-width: 600px) {
+
+  .navbar {
+    max-width: 600px;
+  }
+
   .navbar__title{
     margin: auto;
   
