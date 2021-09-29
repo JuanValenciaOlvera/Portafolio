@@ -138,11 +138,10 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar__title {
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
+@media  screen and  (max-width: 600px) {
+  .navbar__title{
+    margin: auto;
+  
   }
   .btn__menu {
     display: inline-flex;
