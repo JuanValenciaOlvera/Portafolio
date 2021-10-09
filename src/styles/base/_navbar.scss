@@ -3,11 +3,8 @@
   background: $black;
   // box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.10);
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  left: 0;
   max-height: 80px;
-  margin: auto;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -16,9 +13,7 @@
 }
 
 .navbar__title {
-  color: $white;
   font-size: 30px;
-  margin-left: 10%;
   padding: 5px;
 }
 .navbar__title span {
@@ -31,7 +26,7 @@
   font-size: 20px;
   justify-content: space-around;
   margin-right: 40px;
-  min-width: 400px;
+  min-width: 550px;
 }
 
 .navbar__menu a {
@@ -66,81 +61,48 @@
 }
 
 //Controla los estilos de 1200px hacia arriba
-@media only screen and (min-width: 1200px) {
-  .navbar__title {
-    color: $white;
-    font-size: 30px;
-    margin-left: 10%;
-    padding: 5px;
-  }
-  .navbar__title span {
-    color: $primary;
-  }
-  .navbar__menu {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    justify-content: space-around;
-    margin-right: 40px;
-    min-width: 400px;
-  }
 
-  .navbar__menu a {
-    color: $white !important ;
-    border-radius: 10px;
-    margin-left: 80px;
-    padding: 5px 10px 5px 10px;
-    text-decoration: none;
-    transition: all 0.2s ease-in;
-
-    &:hover {
-      background: $primary;
-      color: $white;
-    }
-  }
-}
 
 //Controla los estilos de 992px hacia arriba
-@media screen and(min-width: 992px) {
-  .navbar__title {
-    margin-left: 5%;
-  }
+@media only screen and(min-width: 992px) and (max-width: 1200px){
   .navbar__menu {
     margin-right: 25px;
-    min-width: 250px;
+    min-width: 500px;
   }
   .navbar__menu a {
     margin-left: 40px;
   }
 }
 
-@media screen and (min-width: 768px)  {
+@media only screen and (min-width: 768px) and (max-width: 990px) {
   .navbar__title {
     margin-left: 3%;
   }
   .navbar__menu {
     margin-right: 15px;
+    min-width: 450px;
   }
   .navbar__menu a {
     margin-left: 25px;
   }
 }
 
-@media screen and (min-width: 600px)  {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
   .navbar__title {
     margin-left: 2%;
   }
   .navbar__menu {
     margin-right: 10px;
+    min-width: 400px;
   }
   .navbar__menu a {
     margin-left: 15px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .navbar{
+    max-width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
