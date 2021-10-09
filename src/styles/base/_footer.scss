@@ -27,8 +27,9 @@
         flex-direction: row;
         padding: 5px;
     }
-    .footer_name{
-        font-size: .6rem;
+    .footer__text h4,h5{
+        min-width: 200px;
+        font-size: .7rem !important;
     }
     
 .footer_icons{

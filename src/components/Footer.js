@@ -5,7 +5,7 @@ export const Footer = () => {
 
     return (
         <div className="footer" id="contacto">
-            <div>
+            <div className="footer__text">
                 <h4 className="footer_name">Realizado con React js</h4>
                 <h5 className="footer_name">Gracias por visitar mi sito</h5>
             </div>
