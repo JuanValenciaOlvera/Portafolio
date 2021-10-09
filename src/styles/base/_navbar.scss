@@ -102,7 +102,7 @@
 }
 
 //Controla los estilos de 992px hacia arriba
-@media screen and(min-width: 992px) and (max-width: 1199px) {
+@media screen and(min-width: 992px) {
   .navbar__title {
     margin-left: 5%;
   }
@@ -115,7 +115,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px)  {
   .navbar__title {
     margin-left: 3%;
   }
@@ -127,7 +127,7 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 767px) {
+@media screen and (min-width: 600px)  {
   .navbar__title {
     margin-left: 2%;
   }
