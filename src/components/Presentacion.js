@@ -3,7 +3,7 @@ import React from "react";
 export const Presentacion = () => {
   return (
     <div
-      className="presentacion animate__animated animate__backInRight animate__slow 	2s"
+      className="presentacion "
       id="home"
     >
       <div className="presentacion__text">
